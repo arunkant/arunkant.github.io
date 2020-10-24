@@ -26,7 +26,7 @@ First we need to setup our development enviornment. Jekyll is written in Ruby. L
 $ brew update
 $ brew install rbenv rbenv-build
 ```
-Follow the command to install rbenv in your `~/.bash_profile`. Open a new terminal window for changes to take effect.
+Follow the instructions to install rbenv in your `~/.bash_profile`. Open a new terminal window for changes to take effect.
 ```
 # list latest stable ruby versions
 $ rbenv install -l
@@ -89,7 +89,7 @@ LiveReload address: http://127.0.0.1:35729
   Server running... press ctrl-c to stop.
 ```
 
-open [http://127.0.0.1:4000/](http://127.0.0.1:4000/) in the browser and you can see a newly created site.
+Open [http://127.0.0.1:4000/](http://127.0.0.1:4000/) in the browser and you can see a newly created site.
 
 ## Commit to a git repository 
 ```
@@ -98,8 +98,11 @@ $ git add .
 $ git commit -m 'Initial commit'
 ```
 
+## Create a Github account
+[Create a Github account](https://github.com/join). It is free.
+
 ## Push it to Github
-Create a repository in Github with same name (arunkant.github.io)
+[Create a repository](https://github.com/new) in Github with same name (arunkant.github.io)
 ```
 $ git remote add origin git@github.com:arunkant/arunkant.github.io.git
 $ git push origin master
@@ -107,9 +110,9 @@ $ git push origin master
 After some time you should be able to see it live at [http://_username_.github.io](http://_username_.github.io)
 
 ## Change default config
-open `_config.yml` in the root of the project and edit as needed. Commit and push again and after some time it will be live.
+Open `_config.yml` in the root of the project and edit as needed. Commit and push again and after some time it will be live.
 
-## Start bloggin
+## Start blogging
 Create a post in `_posts` directory (see existing files for help) and push to Github. It will build it and deploy it. I already had some very old posts which I just copied from old repository.
 
 ## Next steps
