@@ -115,7 +115,7 @@ Create a post in `_posts` directory (see existing files for help) and push to Gi
 ## Next steps
 There are a few things you can try
 - Write more blog posts
-- Go to [Jekyll Themes](https://jekyllrb.com/docs/themes/) and choose one suites your test.
+- Go to [Jekyll Themes](https://jekyllrb.com/docs/themes/) and choose one suites your taste.
 - Create your own theme
 - Help your friends to start a blog
 - SEO
