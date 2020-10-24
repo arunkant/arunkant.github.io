@@ -1,9 +1,9 @@
 ---
 layout: post
-title: How to start a personal blog with Jekyll and Github pages
+title: How to start a personal blog with Jekyll and Github Pages
 ---
 
-Many people want to write a blog but don't know where to begin. This post will explain how to use Jekyll to create a simple blog site and host it using Github pages.
+Many people want to write a blog but don't know where to begin. This post will explain how to use Jekyll to create a simple blog site and host it using Github Pages.
 
 # What is Jekyll
 [Jekyll](https://jekyllrb.com/) is a static site generator. It takes the content written in markdown format with some templates and outputs a fully static rendered site.
@@ -71,7 +71,7 @@ $ gem install jekyll
 $ jekyll new arunkant.github.io
 $ cd arunkant.github.io
 ```
-Here `arunkant` is my github username. 
+Here `arunkant` is my Github username. 
 
 # Run the site locally
 ```
@@ -98,8 +98,8 @@ $ git add .
 $ git commit -m 'Initial commit'
 ```
 
-## Push it to github
-Create a repository in github with same name (arunkant.github.io)
+## Push it to Github
+Create a repository in Github with same name (arunkant.github.io)
 ```
 $ git remote add origin git@github.com:arunkant/arunkant.github.io.git
 $ git push origin master
@@ -110,7 +110,7 @@ After some time you should be able to see it live at [http://_username_.github.i
 open `_config.yml` in the root of the project and edit as needed. Commit and push again and after some time it will be live.
 
 ## Start bloggin
-Create a post in `_posts` directory (see existing files for help) and push to Github. Github will build it and deploy it. I already had some very old posts which I just copied from old repository.
+Create a post in `_posts` directory (see existing files for help) and push to Github. It will build it and deploy it. I already had some very old posts which I just copied from old repository.
 
 ## Next steps
 There are a few things you can try
