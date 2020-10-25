@@ -118,3 +118,9 @@ TODO: copy paste files
 Create a default layout `default.html` which will be base of other layouts.
 
 Modify home.html, page.html and post.html to inherit from default layout
+
+# Design
+So far we have only created the scalaton for the site. Let's add some css so it looks good. Jekyll uses [Sass](https://sass-lang.com/) as CSS preprocessor. lets create a directory `assets` and create file `main.scss`
+
+Add `<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">` in `head.html` file.
+
