@@ -6,11 +6,11 @@ To modify a jekyll theme, often it is easier to convert gem based theme to regul
 
 [Official Documentation](https://jekyllrb.com/docs/themes/#converting-gem-based-themes-to-regular-themes) is good place to start. This blog is mostly note for my future self.
 
-_Note that making copies of theme files will prevent you from receiving any theme updates._
+<mark>Note that making copies of theme files will prevent you from receiving any theme updates.</mark>
 
 First let's find out what theme we are using. By default Jekyll uses `minima` theme. This information is in `_config.yml` file. 
 
-Then open the directory where the gem is
+Now open the directory where the gem is
 ```
 $ open $(bundle info --path minima)
 ```
@@ -44,7 +44,7 @@ plugins:
 Don't forget to run `bundle update`. 
 
 Finally remove reference to theme gem
- - open `Gemfile` and remove `gem "minima", "~> 2.5"`.
+ - Open `Gemfile` and remove `gem "minima", "~> 2.5"`.
  - Open `_config.yml` and remove `theme: minima`.
 
 And we are done. 
