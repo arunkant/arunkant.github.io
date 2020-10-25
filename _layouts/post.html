@@ -1,21 +1,9 @@
-<html>
-    <head>
-        <title>{{ site.title }} </title>
-    </head>
-    <body>
-        <header>
-            <span>
-                {{ site.title }}
-            </span>
-        </header>
-        <h2> {{ page.title | escape }} </h2>
-        <p>
-            {{ page.content }}
-        </p>
-        <footer>
-            <span>
-                {{ site.author }} | {{ site.email }}
-            </span>
-        </footer>
-    </body>
-</html>
+---
+layout: default
+---
+<div>
+    <h2> {{ page.title | escape }} </h2>
+    <p>
+        {{ content }}
+    </p>
+</div>

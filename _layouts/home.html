@@ -1,33 +1,18 @@
-<html>
-    <head>
-        <title>{{ site.title }} </title>
-    </head>
-    <body>
-        <header>
+---
+layout: default
+---
+<div>
+    <h2> Posts </h2>
+    <ul>
+        {%- for post in site.posts -%}
+        <li>
             <span>
-                {{ site.title }}
-            </span>
-        </header>
-        <h2> Posts </h2>
-        <ul>
-            {%- for post in site.posts -%}
-                <li>
-                    <span>
-                        {{ post.date }}
-                    </span> -
-                    <span>
-                        <a href="{{ post.url | relative_url }}">
-                            {{ post.title | escape }}
-                        </a>
-                        
-                    </span>
-                </li>
-            {%- endfor -%}
-        </ul>
-        <footer>
+                {{ post.date }}
+            </span> -
             <span>
-                {{ site.author }} | {{ site.email }}
+                <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </span>
-        </footer>
-    </body>
-</html>
+        </li>
+        {%- endfor -%}
+    </ul>
+</div>

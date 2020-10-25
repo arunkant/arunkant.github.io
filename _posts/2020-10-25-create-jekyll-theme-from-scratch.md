@@ -100,7 +100,21 @@ We may also want to add pages (think like `About` page or `Portfolio` page). The
 
 # File: page.html
 ```liquid
-
+# page.html
 ```
 
 Let's create a 404 page also `404.html`
+```liquid
+# 404.html
+```
+
+# Refactoring layouts
+By now you may have noticed that we are repeating header, footer everywhere. A template can _extend_ other templates so we can put common stuff in one file. Let's refactor it.
+
+First let's create a directory `_includes` where we will put our common elements like header and footer. Create `header.html` and `footer.html`
+
+TODO: copy paste files
+
+Create a default layout `default.html` which will be base of other layouts.
+
+Modify home.html, page.html and post.html to inherit from default layout
