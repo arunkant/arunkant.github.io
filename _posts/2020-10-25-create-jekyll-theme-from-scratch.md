@@ -47,7 +47,10 @@ Note: Difference b/w `\{\%\- \-\%\}` and `\{\% \%\}` is that [earlier will strip
                         {{ post.date }}
                     </span> -
                     <span>
-                        {{ post.title | escape }}
+                        <a href="{{ post.url | relative_url }}">
+                            {{ post.title | escape }}
+                        </a>
+                        
                     </span>
                 </li>
             {%- endfor -%}
@@ -60,3 +63,5 @@ Note: Difference b/w `\{\%\- \-\%\}` and `\{\% \%\}` is that [earlier will strip
     </body>
 </html>
 ```
+
+# Post page

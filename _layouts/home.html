@@ -16,7 +16,10 @@
                         {{ post.date }}
                     </span> -
                     <span>
-                        {{ post.title | escape }}
+                        <a href="{{ post.url | relative_url }}">
+                            {{ post.title | escape }}
+                        </a>
+                        
                     </span>
                 </li>
             {%- endfor -%}
