@@ -27,6 +27,8 @@ Now that we have a scalaton structure we can start with our first task that is t
 TIP: install [Liquid](https://marketplace.visualstudio.com/items?itemName=sissel.shopify-liquid) extension in VS Code.
 Note: Difference b/w `\{\%\- \-\%\}` and `\{\% \%\}` is that [earlier will strip the white space around it](https://stackoverflow.com/questions/57865720/shopify-liquid-differences-between-and)
 
+Note: We are going to take care of CSS later
+
 # list all posts
 ```liquid
 <html>
@@ -65,3 +67,40 @@ Note: Difference b/w `\{\%\- \-\%\}` and `\{\% \%\}` is that [earlier will strip
 ```
 
 # Post page
+Now we have our list page, let's create a layout to see a single post. Create a file `post.html` in `_layouts` as follows
+
+Note: By default Jekyll will render the post even if there is no layout for it.
+
+```liquid
+<html>
+    <head>
+        <title>{{ site.title }} </title>
+    </head>
+    <body>
+        <header>
+            <span>
+                {{ site.title }}
+            </span>
+        </header>
+        <h2> {{ page.title }} </h2>
+        <p>
+            {{ page.content }}
+        </p>
+        <footer>
+            <span>
+                {{ site.author }} | {{ site.email }}
+            </span>
+        </footer>
+    </body>
+</html>
+
+```
+
+We may also want to add pages (think like `About` page or `Portfolio` page). They’re useful for standalone content (content which is not date based or is not a group of content such as staff members or recipes). Let's create a simple layout for same.
+
+# File: page.html
+```liquid
+
+```
+
+Let's create a 404 page also `404.html`
