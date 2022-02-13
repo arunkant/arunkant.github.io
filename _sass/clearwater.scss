@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: inherit;
+}
+
+.copyleft {
+    display: inline-block;
+    top: 2px;
+    position: relative;
+    transform: rotate(180deg);
+}
+
+.footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #e6e6e6;
+    padding-left: .2em;
+    padding: 1em;
+}
+
+.footer a,
+.footer a:visited {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: 0 0 3em 0 auto;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+a,
+a:visited {
+    color: #000;
+}
+
+.container {
+    padding: 15px;
+    max-width: 730px;
+}
+
+.title,
+.subtitle {
+    font-family: 'Bellefair', serif;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.subtitle {
+    font-size: 1.25em;
+    line-height: 30px;
+    padding-left: .2em;
+    margin-bottom: .4em;
+    border-left: solid #333 2px;
+    background-color: #e6e6e6;
+}
+
+.title small {
+    font-size: .8em;
+}
+
+.header {
+    line-height: 2em;
+    width: 150px;
+    margin-bottom: 1em;
+    color: #fafafa;
+    padding: .3em .3em 0 .3em;
+    background-color: #333;
+    border-left: .618em solid #aaa;
+}
+
+.main {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: .3em;
+}
+
+.main p {
+    margin-bottom: .5em;
+}
+
+.as_list_wrap {
+    padding-left: 1em;
+}
+
+.as_list {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 500px;
+    padding-bottom: .5em;
+}
+
+.as_list_member {
+    width: 20%;
+}
+
+.date {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sect_news li {
+    padding-bottom: .5em;
+    line-height: 1.2em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+th {
+    border-bottom: 2px solid #333;
+}
+
+ul {
+    padding-left: 1.5em;
+}
+
+li {
+    line-height: 20px;
+}
+
+.deleted {
+    color: #999;
+    text-decoration: line-through;
+}
+
+a.deleted {
+    color: #999;
+    text-decoration: underline line-through;
+}
+
+.muted {
+    color: #999;
+    font-size: .9em;
+}
+
+.star {
+    font-family: monospace;
+}
+
+.small {
+    color: #999;
+    font-size: .9em;
+    font-style: italic;
+    margin-left: .1em;
+}
+
+.ad-highlight:before {
+    content: 'AD';
+    color: #aaa;
+}
+
+.ad-highlight {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding: .8em;
+    background-color: #e6e6e6;
+}

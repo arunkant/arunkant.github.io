@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
 
-  {%- include head.html -%}
+{% include head.html -%}
 
-  <body>
-
+<body>
+    <div class="container">
+        
     {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
-  </body>
-
+    {{ content }}
+        
+    </div>
+    <div class="footer">
+        <p>Copyleft <span class="copyleft">&copy;</span> <a href="https://lab.nat.moe" target="_blank">Nato
+                Laboratory</a>,
+            no rights reserved. Assets have their own licenses.</p>
+    </div>
+</body>
 </html>
+
+
