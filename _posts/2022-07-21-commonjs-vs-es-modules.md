@@ -1,5 +1,5 @@
 ---
-title: Developer Rhapsody
+title: CommonJS vs ES Modules in javascript
 layout: post
 ---
 
