@@ -18,14 +18,18 @@ function fib(n) {
     return fib(n - 1) + fib(n - 2);
 }
 
-module.exports = { fib } // Shorthand property names https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
+module.exports = { fib } 
+// Using Shorthand property names
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
 ```
 
 And let's use it our app
 ```js
 // app.js
 
-const { fib } = require('./fib.js'); // ".js" is unnecessory using destructuring assignment https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+const { fib } = require('./fib.js'); 
+// ".js" is unnecessory using destructuring assignment
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 console.log(fib(10));
 ```
 ```
@@ -44,7 +48,9 @@ function fib(n) {
     return fib(n - 1) + fib(n - 2);
 }
 
-export { fib } // Shorthand property names https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
+export { fib } 
+// Shorthand property names
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
 ```
 
 And let's use it in our app
