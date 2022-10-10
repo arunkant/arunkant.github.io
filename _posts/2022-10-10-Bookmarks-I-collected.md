@@ -12,7 +12,7 @@ So here is the dump from my browser bookmarks in some order and some brief notes
 
 [Absolute scale corrupts absolutely · Tailscale](https://tailscale.com/blog/absolute-scale/) - Large scale invites bigger currptions :shrugs:
 
-[When AWS, Azure, or GCP Becomes the Competition | Greg Kogan](https://www.gkogan.co/blog/big-cloud/) - Everyone startup should fear "trillion pound" gorillas and prepare accordingly
+[When AWS, Azure, or GCP Becomes the Competition \| Greg Kogan](https://www.gkogan.co/blog/big-cloud/) - Everyone startup should fear "trillion pound" gorillas and prepare accordingly
 
 
 
