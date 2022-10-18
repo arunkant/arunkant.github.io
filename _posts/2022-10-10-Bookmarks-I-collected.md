@@ -99,7 +99,7 @@ So here is the dump from my browser bookmarks in some order and some brief notes
 
 [There’s a Hole In the Bucket: Traditional Children's Song Lyrics and Sound Clip](https://www.songsforteaching.com/folk/theresaholeinthebucket.php) - Not sure why I bookmarked it :shrug: (I remember now, it references yak shaving)
 
-[yak shaving : Java Glossary](https://www.mindprod.com/jgloss/yakshaving.html) - Something seemingly simple become grows without bounds
+[yak shaving : Java Glossary](https://www.mindprod.com/jgloss/yakshaving.html) - Something seemingly simple grows without bounds
 
 
 [How can we know if paid search advertising works?](https://causalinf.substack.com/p/how-can-we-know-if-paid-search-advertising?s=r)
