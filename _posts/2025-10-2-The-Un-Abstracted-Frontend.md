@@ -16,8 +16,7 @@ Our first goal is simple: Get a modern JS file to run in the browser.
 ### 1. Project Initialization and Structure
 Every modern project starts here.
 
-```Bash
-
+```bash
 # Create the folder and start npm
 mkdir grounded-app
 cd grounded-app
@@ -30,7 +29,6 @@ mkdir src dist
 We need a bundler to combine files and a transpiler to convert modern JS.
 
 ```bash
-
 # Install bundler/server tools and Babel core
 npm install --save-dev \
   webpack webpack-cli webpack-dev-server \
@@ -42,7 +40,6 @@ Let's use an arrow function that older browsers might not understand.
 src/index.js
 
 ```js
-
 const greet = (name) => {
     console.log(`Hello, ${name}! This is modern JS.`);
 };
@@ -72,7 +69,6 @@ We tell Babel what transformations to apply, and we tell webpack how to use Babe
 webpack.config.js (Minimal Setup)
 
 ```js
-
 const path = require('path');
 
 module.exports = {
@@ -104,7 +100,6 @@ A frontend app isn't just JavaScript. Now we teach webpack to handle other file 
 We need loaders for CSS and a plugin to manage our HTML file.
 
 ```bash
-
 # Install asset loaders and the HTML plugin
 npm install --save-dev style-loader css-loader html-webpack-plugin
 ```
@@ -113,7 +108,6 @@ A. HTML Plugin: We use html-webpack-plugin to generate the output HTML and injec
 index.html (Update the entry point to be served as the template)
 
 ```html
-
 ...
 <body>
     <div id="app"></div>
@@ -122,7 +116,6 @@ index.html (Update the entry point to be served as the template)
 ```
 B. webpack.config.js (Adding the asset rules)
 ```js
-
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin'); 
 
@@ -164,7 +157,6 @@ We create our convenient scripts to start the server and run the final productio
 package.json (Scripts section)
 
 ```json
-
 "scripts": {
   "build": "webpack --mode production",
   "start": "webpack serve --open --mode development"
@@ -177,7 +169,6 @@ Finally, we introduce React and its primary feature, JSX.
 We need the actual React libraries and the special Babel preset to handle JSX.
 
 ```bash
-
 # Install React core libraries
 npm install react react-dom
 
@@ -190,7 +181,6 @@ We update the configs to recognize JSX files and syntax.
 .babelrc (Add the React preset)
 
 ```json
-
 {
   "presets": [
     "@babel/preset-react", // <-- Now handles JSX syntax!
@@ -201,7 +191,6 @@ We update the configs to recognize JSX files and syntax.
 webpack.config.js (Update to include the .jsx extension)
 
 ```js
-
 // ...
   module: {
     rules: [
@@ -227,7 +216,6 @@ Our code is now built on the new standard.
 src/App.js
 
 ```js
-
 import React from 'react';
 
 const App = ({ title }) => {
