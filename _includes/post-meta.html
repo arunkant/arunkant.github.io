@@ -1,0 +1,14 @@
+{%- assign words = include.post.content | strip_html | number_of_words -%}
+{%- assign rt = words | divided_by: 220.0 | ceil -%}
+{%- if rt < 1 %}{% assign rt = 1 %}{% endif -%}
+<div class="post-meta">
+  <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%b %-d, %Y" }}</time>
+  <span class="sep">·</span>
+  <span>{{ rt }} min read</span>
+  {%- if include.post.tags and include.post.tags.size > 0 %}
+  <span class="sep">·</span>
+  <span class="post-tags">
+    {%- for t in include.post.tags %}<a href="{{ '/tags/' | append: t | append: '/' | relative_url }}">#{{ t }}</a>{% unless forloop.last %} {% endunless %}{% endfor %}
+  </span>
+  {%- endif %}
+</div>

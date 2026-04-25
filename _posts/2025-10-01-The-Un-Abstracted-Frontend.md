@@ -1,7 +1,17 @@
 ---
 title: The Un-Abstracted Frontend
 layout: post
+description: Building a modern React app from scratch — no Vite, no Next.js — to demystify the magic of `create-react-app` and its friends.
+categories: [Web]
+tags: [react, javascript, webpack, frontend]
 ---
+
+<nav class="post-toc" markdown="1">
+**Contents**
+* TOC
+{:toc}
+</nav>
+
 ## Building a Modern React App from Scratch (No Vite, No Next.js!)
 Grounded Development: Why the "Magic" Needs to Stop
 If you're new to modern JavaScript, running npx create-react-app or npx create-vite feels like pure magic. In seconds, you have a working app!

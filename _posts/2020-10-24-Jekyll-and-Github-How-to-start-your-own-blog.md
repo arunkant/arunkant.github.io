@@ -1,6 +1,9 @@
 ---
 layout: post
 title: How to start a personal blog with Jekyll and Github Pages
+description: A no-frills walkthrough for spinning up your own static blog with Jekyll and hosting it free on GitHub Pages.
+categories: [Web]
+tags: [jekyll, github-pages, tutorial]
 ---
 
 Many people want to write a blog but don't know where to begin. This post will explain how to use Jekyll to create a simple blog site and host it using Github Pages.

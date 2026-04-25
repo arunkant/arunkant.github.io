@@ -1,0 +1,16 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© {{ 'now' | date: '%Y' }} {{ site.author.name }}</span>
+    <span class="sep">·</span>
+    <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    {%- if site.author.github %}
+    <span class="sep">·</span>
+    <a href="https://github.com/{{ site.author.github }}" rel="me">GitHub</a>
+    {%- endif %}
+    {%- if site.author.twitter %}
+    <span class="sep">·</span>
+    <a href="https://twitter.com/{{ site.author.twitter }}" rel="me">Twitter</a>
+    {%- endif %}
+  </div>
+</footer>
+<script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>

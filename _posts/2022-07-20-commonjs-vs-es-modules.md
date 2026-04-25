@@ -1,6 +1,9 @@
 ---
-title: CommonJS vs ES Modules in javascript
+title: CommonJS vs ES Modules in JavaScript
 layout: post
+description: Why JavaScript has two module systems, how they differ in practice, and when each one shows up in your code.
+categories: [Programming]
+tags: [javascript, nodejs, modules]
 ---
 
 Recently I started learning javascript. we are removing difference between frontend vs backend programmer. I believe most people can do both.

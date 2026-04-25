@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Dynamic dispatch pattern in Scheme/Racket
+description: Implementing dynamic method dispatch — the polymorphism trick that powers JavaScript's toString — in plain Scheme.
+categories: [Programming]
+tags: [scheme, racket, javascript, patterns]
 ---
 
 Many programming languages use this pattern to dynamically select method implementation based on one or more _special_ arguments. For example in JavaScript we have toString() for both objects and arrays, but It works differently.

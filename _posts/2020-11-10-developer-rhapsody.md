@@ -1,6 +1,9 @@
 ---
 title: Developer Rhapsody
 layout: post
+description: A parody of Bohemian Rhapsody, rewritten for the everyday struggles of shipping software.
+categories: [Misc]
+tags: [humor, music]
 ---
 
 [Play original in new tab on YouTube](https://www.youtube.com/watch?v=fJ9rUzIMcZQ){:target="_blank"}

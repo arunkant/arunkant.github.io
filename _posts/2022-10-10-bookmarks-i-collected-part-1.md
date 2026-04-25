@@ -1,6 +1,9 @@
 ---
 title: My bookmarks over the years (part 1)
 layout: post
+description: A dump of articles and links I've collected in my browser, with brief notes — part 1 of 5.
+categories: [Bookmarks]
+tags: [bookmarks, links]
 ---
 
 I have bookmarked lots of articles over the years. I hardly visit them but I don't want to delete them either. I want to clean up my browser and start fresh...
