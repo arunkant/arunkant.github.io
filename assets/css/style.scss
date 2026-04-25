@@ -232,6 +232,13 @@ h4 { font-size: 1.0rem; }
 }
 .post-meta a:hover { color: var(--accent); border-bottom: 0; }
 
+.post-tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  vertical-align: middle;
+}
+
 .post-content > :first-child { margin-top: 0; }
 .post-content p { margin: 1rem 0; }
 .post-content blockquote {

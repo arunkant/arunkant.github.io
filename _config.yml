@@ -19,7 +19,7 @@ timezone: Asia/Kolkata
 # UA tracker preserved from previous site (optional, leave empty to disable)
 google_analytics: UA-48263499-1
 
-permalink: /posts/:title/
+permalink: /posts/:slug/
 
 markdown: kramdown
 highlighter: rouge
