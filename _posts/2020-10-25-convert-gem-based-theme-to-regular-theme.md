@@ -4,6 +4,8 @@ layout: post
 description: Notes-to-future-self on flattening a gem-based Jekyll theme into your repo so you can edit it directly.
 categories: [Web]
 tags: [jekyll, themes]
+redirect_from:
+  - /2020/10/25/convert-gem-based-theme-to-regular-theme.html
 ---
 To modify a jekyll theme, often it is easier to convert gem based theme to regular them which resides in the same repository as other content.
 

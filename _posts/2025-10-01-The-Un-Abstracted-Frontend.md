@@ -4,6 +4,8 @@ layout: post
 description: Building a modern React app from scratch — no Vite, no Next.js — to demystify the magic of `create-react-app` and its friends.
 categories: [Web]
 tags: [react, javascript, webpack, frontend]
+redirect_from:
+  - /2025/10/01/The-Un-Abstracted-Frontend.html
 ---
 
 <nav class="post-toc" markdown="1">

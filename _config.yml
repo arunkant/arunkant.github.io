@@ -33,6 +33,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # jekyll-archives → tag/category index pages
 jekyll-archives:

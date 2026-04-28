@@ -4,6 +4,8 @@ layout: post
 description: Why JavaScript has two module systems, how they differ in practice, and when each one shows up in your code.
 categories: [Programming]
 tags: [javascript, nodejs, modules]
+redirect_from:
+  - /2022/07/20/commonjs-vs-es-modules.html
 ---
 
 Recently I started learning javascript. we are removing difference between frontend vs backend programmer. I believe most people can do both.

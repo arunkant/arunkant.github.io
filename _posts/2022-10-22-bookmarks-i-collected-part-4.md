@@ -4,6 +4,8 @@ layout: post
 description: A dump of articles and links I've collected in my browser, with brief notes — part 4 of 5.
 categories: [Bookmarks]
 tags: [bookmarks, links]
+redirect_from:
+  - /2022/10/22/bookmarks-i-collected-part-4.html
 ---
 
 I have bookmarked lots of articles over the years. I hardly visit them but I don't want to delete them either. I want to clean up my browser and start fresh...

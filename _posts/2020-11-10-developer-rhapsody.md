@@ -4,6 +4,8 @@ layout: post
 description: A parody of Bohemian Rhapsody, rewritten for the everyday struggles of shipping software.
 categories: [Misc]
 tags: [humor, music]
+redirect_from:
+  - /2020/11/10/developer-rhapsody.html
 ---
 
 [Play original in new tab on YouTube](https://www.youtube.com/watch?v=fJ9rUzIMcZQ){:target="_blank"}

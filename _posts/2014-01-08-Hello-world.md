@@ -4,6 +4,8 @@ title: Hello World!!
 description: A short hello and what to expect from this blog.
 categories: [Meta]
 tags: [introduction]
+redirect_from:
+  - /2014/01/08/Hello-world.html
 ---
 ### About this blog
 This is my personal blog and I will share about things I am working on, things I care about and thoughts which come and go through my mind.
