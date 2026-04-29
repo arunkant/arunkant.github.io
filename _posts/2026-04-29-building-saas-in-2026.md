@@ -16,7 +16,7 @@ redirect_from:
 
 Every few months, someone declares SaaS dead. The argument has gotten louder in 2026: why pay for vertical tools when an LLM and a GitHub Action can do the same job in an afternoon?
 
-I've heard this pitch enough times — and built enough of those afternoon GitHub Actions myself — to know where it breaks. The demo always works. The Tuesday morning two months later, when the upstream API changes its response shape and your "AI agent" silently ships nonsense to customers, is where the wheels come off.
+I've heard this pitch enough times - and built enough of those afternoon GitHub Actions myself - to know where it breaks. The demo always works. The Tuesday morning two months later, when the upstream API changes its response shape and your "AI agent" silently ships nonsense to customers, is where the wheels come off.
 
 I think SaaS in 2026 is healthier than the obituaries suggest, but the conversation around it is shifting in ways worth paying attention to.
 
@@ -47,13 +47,13 @@ This isn't an argument against agents. It's an argument for knowing *when* to us
 The pattern I keep coming back to:
 
 **1. Use agents to figure out the workflow.**
-What do internal teams actually want — raw ticket lists grouped by squad, or plain-English summaries? Should security patches get a red border? Should refactors be auto-filtered? Agents are great for exploration. You can ask, iterate, and throw away.
+What do internal teams actually want - raw ticket lists grouped by squad, or plain-English summaries? Should security patches get a red border? Should refactors be auto-filtered? Agents are great for exploration. You can ask, iterate, and throw away.
 
 **2. Convert the agent into a concrete workflow.**
 Once you know the shape of the work, stop treating it like a conversation. Hard-code the rules. Build the validation layer. Lock the integration. Turn the fuzzy agent into reliable software that does the same correct thing every Tuesday at 9 AM.
 
 **3. Mix intelligence and consistency where each belongs.**
-Use AI for the parts that benefit from intelligence — reading unstructured tickets, understanding context, writing human prose. Use software for the parts that require consistency — formatting, routing, permissions, delivery.
+Use AI for the parts that benefit from intelligence - reading unstructured tickets, understanding context, writing human prose. Use software for the parts that require consistency - formatting, routing, permissions, delivery.
 
 The mistake most teams make is stopping at step one and shipping the agent.
 
@@ -82,7 +82,7 @@ You connect to your JIRA board (or GitHub, or Linear). You define your audiences
 
 Those rules become a workflow. Every release, it reads your tickets, applies the logic, generates the prose, and delivers it to the right place. It doesn't get creative. It doesn't forget the rules because it's Tuesday. It just works.
 
-You get the intelligence of AI — it understands your messy tickets — wrapped in the reliability of actual software. That's the shape of the SaaS I want to use, and it's the shape of the SaaS I'm building with [Releasedog](https://releasedog.com).
+You get the intelligence of AI - it understands your messy tickets - wrapped in the reliability of actual software. That's the shape of the SaaS I want to use, and it's the shape of the SaaS I'm building with [Releasedog](https://releasedog.com).
 
 ## SaaS in 2026 Is the Plumbing, Not the Hype
 
