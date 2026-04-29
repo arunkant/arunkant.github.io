@@ -1,5 +1,5 @@
 ---
-title: Why I'm Building SaaS in 2026 (And Why Your Changelog Agent Keeps Breaking)
+title: Why I'm Building SaaS in 2026
 layout: post
 description: In-house AI agents are seductive but fragile. Here's the case for using agents to explore and concrete workflows to ship.
 categories: [SaaS]
