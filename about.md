@@ -5,7 +5,7 @@ permalink: /about/
 
 Hi, I'm **Arun Kant Sharma**.
 
-This is *From first principles* — a place where I write about software,
+This is *From first principles* - a place where I write about software,
 the things I'm learning, and the small experiments I run along the way.
 I tend to enjoy ideas more when I can take them apart and rebuild them
 from the ground up, hence the name.

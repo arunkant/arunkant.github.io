@@ -1,7 +1,7 @@
 ---
 title: My bookmarks over the years (part 3)
 layout: post
-description: A dump of articles and links I've collected in my browser, with brief notes — part 3 of 5.
+description: A dump of articles and links I've collected in my browser, with brief notes - part 3 of 5.
 categories: [Bookmarks]
 tags: [bookmarks, links]
 redirect_from:
@@ -24,7 +24,7 @@ So here is the dump from my browser bookmarks in some order and some brief notes
 
 [Continuous deployment of a Sphinx website using Jenkins and Docker \| Jared Dillard](https://jareddillard.com/blog/continuous-deployment-of-a-sphinx-website-with-using-jenkins-and-docker.html)
 
-[Documenting Your Project Using Sphinx — an\_example\_pypi\_project v0.0.5 documentation](https://pythonhosted.org/an_example_pypi_project/sphinx.html)
+[Documenting Your Project Using Sphinx - an\_example\_pypi\_project v0.0.5 documentation](https://pythonhosted.org/an_example_pypi_project/sphinx.html)
 
 [DICOM NetworkingIntroduction - DCMTK - OFFIS DCMTK and DICOM Projects](https://support.dcmtk.org/redmine/projects/dcmtk/wiki/DICOM_NetworkingIntroduction)
 
@@ -46,9 +46,9 @@ So here is the dump from my browser bookmarks in some order and some brief notes
 
 [Argo: Workflow Engine for Kubernetes - ITNEXT](https://itnext.io/argo-workflow-engine-for-kubernetes-7ae81eda1cc5) - CRDs was all the hype then. Everyone got CRDs
 
-[Docker for Mac with Kubernetes — Enable K8S Dashboard](https://medium.com/@thms.hmm/docker-for-mac-with-kubernetes-enable-k8s-dashboard-62fe036b7480)
+[Docker for Mac with Kubernetes - Enable K8S Dashboard](https://medium.com/@thms.hmm/docker-for-mac-with-kubernetes-enable-k8s-dashboard-62fe036b7480)
 
-[Docker for Mac with Kubernetes — Ingress Controller with Traefik](https://medium.com/@thms.hmm/docker-for-mac-with-kubernetes-ingress-controller-with-traefik-e194919591bb)
+[Docker for Mac with Kubernetes - Ingress Controller with Traefik](https://medium.com/@thms.hmm/docker-for-mac-with-kubernetes-ingress-controller-with-traefik-e194919591bb)
 
 
 [Kubernetes Ingress 101: NodePort, Load Balancers, and Ingress Controllers](https://blog.getambassador.io/kubernetes-ingress-nodeport-load-balancers-and-ingress-controllers-6e29f1c44f2d)
@@ -86,7 +86,7 @@ So here is the dump from my browser bookmarks in some order and some brief notes
 
 [OpenSource Single Sign-On(SSO) - FAUN - Medium](https://medium.com/faun/opensource-single-sign-on-sso-e52d39e1927) - Keycloak stuff
 
-[Setting up OpenLDAP server with OpenSSH-LPK on Ubuntu 14.04 — Shichao's Blog](https://blog.shichao.io/2015/04/17/setup_openldap_server_with_openssh_lpk_on_ubuntu.html)
+[Setting up OpenLDAP server with OpenSSH-LPK on Ubuntu 14.04 - Shichao's Blog](https://blog.shichao.io/2015/04/17/setup_openldap_server_with_openssh_lpk_on_ubuntu.html)
 
 [Building Subversion - CoRecursive Podcast](https://corecursive.com/054-software-that-doesnt-suck/) - some interview, not going to read
 

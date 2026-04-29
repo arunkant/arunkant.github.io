@@ -1,7 +1,7 @@
 ---
 title: My bookmarks over the years (part 5)
 layout: post
-description: A dump of articles and links I've collected in my browser, with brief notes — part 5 of 5.
+description: A dump of articles and links I've collected in my browser, with brief notes - part 5 of 5.
 categories: [Bookmarks]
 tags: [bookmarks, links]
 redirect_from:
@@ -26,7 +26,7 @@ So here is the dump from my browser bookmarks in some order and some brief notes
 
 [Open Source Mobile Communications](https://osmocom.org/)
 
-[Instrumenting CPython with DTrace and SystemTap — Python 3.9.5 documentation](https://docs.python.org/3/howto/instrumentation.html)
+[Instrumenting CPython with DTrace and SystemTap - Python 3.9.5 documentation](https://docs.python.org/3/howto/instrumentation.html)
 
 [AHIMA Home](https://ahima.org/) - The American Health Information Management Association
 
@@ -108,7 +108,7 @@ Terragrunt articles are comprehensive
 
 [Hashnode: Everything you need to start blogging as a developer!](https://hashnode.com/) - Will check this out
 
-[Implementing Stripe-like Idempotency Keys in Postgres — brandur.org](https://brandur.org/idempotency-keys)
+[Implementing Stripe-like Idempotency Keys in Postgres - brandur.org](https://brandur.org/idempotency-keys)
 
 [SideQuest - Short Term Tech Jobs](https://sidequestjobs.com/)
 
@@ -143,4 +143,4 @@ Terragrunt articles are comprehensive
 
 [Equanimity - Wikipedia](https://en.wikipedia.org/wiki/Equanimity) - Equanimity (Latin: æquanimitas, having an even mind; aequus even; animus mind/soul) is a state of psychological stability and composure which is undisturbed by experience of or exposure to emotions, pain, or other phenomena that may cause others to lose the balance of their mind. The virtue and value of equanimity is extolled and advocated by a number of major religions and ancient philosophies. 
 
-[Hundreds of Ways to Get S#!+ Done—and We Still Don’t \| WIRED](https://www.wired.com/story/to-do-apps-failed-productivity-tools/) - stop reading productivity how-do. pick a system and stick with it
+[Hundreds of Ways to Get S#!+ Done-and We Still Don’t \| WIRED](https://www.wired.com/story/to-do-apps-failed-productivity-tools/) - stop reading productivity how-do. pick a system and stick with it

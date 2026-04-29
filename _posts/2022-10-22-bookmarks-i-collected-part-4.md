@@ -1,7 +1,7 @@
 ---
 title: My bookmarks over the years (part 4)
 layout: post
-description: A dump of articles and links I've collected in my browser, with brief notes — part 4 of 5.
+description: A dump of articles and links I've collected in my browser, with brief notes - part 4 of 5.
 categories: [Bookmarks]
 tags: [bookmarks, links]
 redirect_from:
@@ -26,7 +26,7 @@ So here is the dump from my browser bookmarks in some order and some brief notes
 
 [Remove Personal Info from Google - DeleteMe](https://joindeleteme.com/)
 
-[Startup Financial Modeling, Part 1: What is a Financial Model? — MATH Venture Partners](https://www.mathventurepartners.com/blog/2016/9/15/startup-financial-modeling-part-1-what-is-a-financial-model)
+[Startup Financial Modeling, Part 1: What is a Financial Model? - MATH Venture Partners](https://www.mathventurepartners.com/blog/2016/9/15/startup-financial-modeling-part-1-what-is-a-financial-model)
 
 [Writing Maketh a Man - Sasank's Blog](https://chsasank.github.io/writing-maketh-man.html) - Start writing regularly
 
@@ -125,7 +125,7 @@ The Moldable Development Environment. Glamorous Toolkit is a multi-language note
 
 [CalyxOS](https://calyxos.org/) - privacy oriented android fork
 
-[Starting a new digital identity — k3tan](https://k3tan.com/starting-a-new-digital-identity) - Read like a movie script
+[Starting a new digital identity - k3tan](https://k3tan.com/starting-a-new-digital-identity) - Read like a movie script
 
 [Request for comments regarding topics to be discussed at Dark Patterns workshop \| Hacker News](https://news.ycombinator.com/item?id=27017041)
 

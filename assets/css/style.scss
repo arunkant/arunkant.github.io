@@ -2,7 +2,7 @@
 ---
 
 /* ===========================================================
-   From first principles — minimal serif theme.
+   From first principles - minimal serif theme.
    One column. No sidebar. Light + dark via [data-theme].
    =========================================================== */
 
@@ -309,7 +309,7 @@ pre {
 }
 pre code { background: transparent; padding: 0; font-size: inherit; }
 
-/* Rouge syntax highlighting — minimal, mode-aware */
+/* Rouge syntax highlighting - minimal, mode-aware */
 .highlight .c, .highlight .cm, .highlight .cp, .highlight .c1, .highlight .cs { color: var(--muted); font-style: italic; }
 .highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt { color: var(--accent); }
 .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #2c8a4a; }

@@ -1,7 +1,7 @@
 ---
 title: My bookmarks over the years (part 2)
 layout: post
-description: A dump of articles and links I've collected in my browser, with brief notes — part 2 of 5.
+description: A dump of articles and links I've collected in my browser, with brief notes - part 2 of 5.
 categories: [Bookmarks]
 tags: [bookmarks, links]
 redirect_from:

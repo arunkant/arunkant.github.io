@@ -1,7 +1,7 @@
 ---
 title: My bookmarks over the years (part 1)
 layout: post
-description: A dump of articles and links I've collected in my browser, with brief notes — part 1 of 5.
+description: A dump of articles and links I've collected in my browser, with brief notes - part 1 of 5.
 categories: [Bookmarks]
 tags: [bookmarks, links]
 redirect_from:
@@ -30,7 +30,7 @@ So here is the dump from my browser bookmarks in some order and some brief notes
 [No, We Won’t Have a Video Call for That! - xahteiwi.eu](https://xahteiwi.eu/resources/presentations/no-we-wont-have-a-video-call-for-that/) - Async communication, "ChatOps", avoid/less (sync) meetings, write. things. down
 
 [Facebook is Other People - by Kevin Munger - Never Met a Science](https://kevinmunger.substack.com/p/facebook-is-other-people)
-- At the door of every contented, happy man somebody should stand with a little hammer, constantly tapping, to remind him that unhappy people exist, that however happy he may be, sooner or later life will show him its claws, some calamity will befall him—illness, poverty, loss—and nobody will hear or see, just as he doesn’t hear or see others now. But there is nobody with a little hammer, the happy man lives on, and the petty cares of life stir him only slightly, as wind stirs an aspen—and everything is fine.
+- At the door of every contented, happy man somebody should stand with a little hammer, constantly tapping, to remind him that unhappy people exist, that however happy he may be, sooner or later life will show him its claws, some calamity will befall him-illness, poverty, loss-and nobody will hear or see, just as he doesn’t hear or see others now. But there is nobody with a little hammer, the happy man lives on, and the petty cares of life stir him only slightly, as wind stirs an aspen-and everything is fine.
 
 [How Google destroyed our startup by terminating our Google Play Developer Account \| by 6Ace Games \| Oct, 2021 \| Medium](https://medium.com/@sixacegames/how-google-destroyed-our-startup-by-terminating-our-google-play-developer-account-6a8cca09ea88) - Big Tech horrer story
 
@@ -94,7 +94,7 @@ So here is the dump from my browser bookmarks in some order and some brief notes
 
 [Notes apps are where ideas go to die. And that’s good. · reproof](https://reproof.app/blog/notes-apps-help-us-forget) - And bookmark bar is where TO-READ goes to die
 
-[The Death of Process. To write great policies, arm those in… \| by Marianne Bellotti \| Feb, 2022 \| Medium](https://bellmar.medium.com/the-death-of-process-cdb0151a41fe) - Every policy or process doc I write now has a section called “Reasons to Revisit.” It is essentially a reverse success criteria. Rather than a short list of things I would expect to see if the policy was successful — which I do but in a different section — I write about things I would expect to see if the policy needed substantial revisions or to just be killed off altogether. I think laws should have this too
+[The Death of Process. To write great policies, arm those in… \| by Marianne Bellotti \| Feb, 2022 \| Medium](https://bellmar.medium.com/the-death-of-process-cdb0151a41fe) - Every policy or process doc I write now has a section called “Reasons to Revisit.” It is essentially a reverse success criteria. Rather than a short list of things I would expect to see if the policy was successful - which I do but in a different section - I write about things I would expect to see if the policy needed substantial revisions or to just be killed off altogether. I think laws should have this too
 
 [The Painfully Shy Developer's Guide to Networking for a Better Job (Without Being Creepy)](https://www.samjulien.com/shy-dev-networking) - Networking is painful, can introverts get a pronoun for this?
 
