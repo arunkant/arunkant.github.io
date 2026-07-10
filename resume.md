@@ -5,7 +5,7 @@ permalink: /resume/
 
 **Engineering Leader · AI Products & Infrastructure**
 
-Bengaluru, India (open to remote) · +91 9005 680 935 · iarunkant@gmail.com
+Bengaluru, India (open to remote) · iarunkant@gmail.com
 
 ---
 
