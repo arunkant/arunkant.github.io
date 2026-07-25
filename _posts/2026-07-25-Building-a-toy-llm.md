@@ -106,9 +106,6 @@ Y:  e l l o   w o r
 
 At position 0 the model sees `h` and learns to predict `e`. At position 1 it sees `he` and learns to predict `l`, and so on. A single forward pass therefore produces `block_size` independent predictions, which makes training efficient.
 
-```python
-X, Y
-```
 
 ## Step 1: A simple baseline — the Bigram model
 
