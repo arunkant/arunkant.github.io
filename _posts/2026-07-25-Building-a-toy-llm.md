@@ -14,7 +14,7 @@ This post is the notebook I used to learn LLM. We will build the model one modul
 A language model is a machine that predicts the next token in a sequence. Feed it `The cat sat on the ...` and it guesses `mat`. Then you append `mat` to the sequence and ask again. Repeat this and the model generates text.
 
 Our model will work at the character level. It reads one character at a time and predicts the next one. It will learn from Shakespeare, so after training it will produce passages that look vaguely Elizabethan.
-This is based on Andrej Karpathy's video ["Let's build GPT: from scratch, in code, spelled out"](https://www.youtube.com/watch?v=kCc8FmEb1nI). Watch it, it is great!
+This is based on Andrej Karpathy's video ["Let's build GPT: from scratch, in code, spelled out"](https://www.youtube.com/watch?v=kCc8FmEb1nY). Watch it, it is great!
 
 The architecture, piece by piece:
 
@@ -402,10 +402,12 @@ This is exactly what we expect: random characters with no structure.
 The training loop follows the standard PyTorch recipe:
 
 ```python
-# Model and training hyperparameters (block_size and batch_size are defined in Step 0)
+# Hyperparameters
+block_size = 256
 embedding_dim = 384
 head_size = 64
 num_heads = 6
+batch_size = 32
 learning_rate = 1e-3
 max_iters = 1000
 
@@ -414,7 +416,7 @@ optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 print(f"Training on: {device}")
 
 for iter in range(max_iters):
-    xb, yb = get_batch('train', batch_size)
+    xb, yb = get_batch('train')
     xb, yb = xb.to(device), yb.to(device)
 
     logits, loss = model(xb, yb)
