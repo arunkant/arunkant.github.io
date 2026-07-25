@@ -85,7 +85,7 @@ We need one more helper before training: a function that grabs random chunks of 
 block_size = 256      # how many characters the model sees at once (context length)
 batch_size = 32       # how many sequences we process in parallel
 
-def get_batch(split, batch_size):
+def get_batch(split, batch_size=4):
     data = train_data if split == 'train' else val_data
     indeces = torch.randint(0, len(data) - block_size, (batch_size,))
     X = torch.stack([data[i:i+block_size] for i in indeces])
@@ -416,7 +416,7 @@ optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 print(f"Training on: {device}")
 
 for iter in range(max_iters):
-    xb, yb = get_batch('train')
+    xb, yb = get_batch('train', batch_size)
     xb, yb = xb.to(device), yb.to(device)
 
     logits, loss = model(xb, yb)
@@ -623,7 +623,7 @@ train_data = data[:n]
 val_data = data[n:]
 
 
-def get_batch(split, batch_size):
+def get_batch(split, batch_size=4):
     data = train_data if split == 'train' else val_data
     indeces = torch.randint(0, len(data) - block_size, (batch_size,))
     X = torch.stack([data[i:i+block_size] for i in indeces])
